@@ -28,7 +28,7 @@ function serviceCarouselRun(index) {
               style="background-image: url('${services[index].image}')"
             >
               <div
-                class="service-desc text-center bg-[rgba(0,0,0,0.44)] rounded-xl p-5 shadow-2xl mt-[20vh] mx-auto md:mt-[25vh] md:w-2/3 boder border-yellow-400"
+                class="service-desc text-center bg-[rgba(0,0,0,0.44)] rounded-xl p-5 shadow-2xl mt-[20vh] mx-auto md:mt-[25vh] md:w-2/3"
               >
                 <h3
                   class="text-blue-200 text-2xl tracking-widest font-semibold mb-3"

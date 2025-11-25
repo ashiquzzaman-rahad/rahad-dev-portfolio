@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skills & Projects - M.d. Ashiquzzaman Rahad</title>
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="images/myfavicon.ico" type="image/x-icon">
     <!-- ====== tailwind css ====== -->
     <link href="./output.css" rel="stylesheet" />
+    <!-- ======== slide css ========= -->
+    <link rel="stylesheet" href="slide-animation.css" />
     <!-- ====== fontawesome ====== -->
     <link
       rel="stylesheet"
@@ -43,10 +47,10 @@
                 <a href="#skills">Skills & Projects</a>
               </li>
               <li class="text-center my-2 hover:text-white">
-                <a href="services.html">Services & Work Experiences</a>
+                <a href="services.html">Services</a>
               </li>
               <li class="text-center my-2 hover:text-white">
-                <a href="#">Contact</a>
+                <a href="contact.html">Contact</a>
               </li>
             </ul>
           </nav>
@@ -263,8 +267,19 @@
       <!-- ======== skills section end ========= -->
     </div>
 
+    <!-- ======== work experience & certificates section start ========= -->
+    <section class="work-exp-certificates mt-[10vh]">
+        <h2 class="text-center text-2xl font-bold md:text-3xl">
+          Work Experiences & <br> Certificates
+        </h2>
+        <div class="services-carousel">
+          <div class="service-item"></div>
+        </div>
+    </section>
+    <!-- ======== work experience & certificates section end ========= -->
+
     <!-- ======== Projects section start ========= -->
-    <section>
+    <section class="mt-[25vh]">
       <h2 class="text-center text-2xl font-bold mt-[15vh] mb-[7vh] md:text-3xl">
         Projects I Have Done
       </h2>
@@ -450,12 +465,12 @@
               <li
                 class="my-3 font-semibold text-[1.2rem] md:text-[1.4rem] md:my-5"
               >
-                <a href="services.html">Services & Work Experiences</a>
+                <a href="services.html">Services</a>
               </li>
               <li
                 class="my-3 font-semibold text-[1.2rem] md:text-[1.4rem] md:my-5"
               >
-                <a href="#">Contact</a>
+                <a href="contact.html">Contact</a>
               </li>
             </ul>
           </nav>
@@ -508,5 +523,6 @@
     <!-- ======== footer section end ======== -->
 
     <script src="script.js"></script>
+    <script src="certificatesCarousel.js"></script>
   </body>
 </html>
